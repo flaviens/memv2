@@ -1,0 +1,7 @@
+read_verilog bram_model.v
+hierarchy -top bram_model -check
+proc
+opt
+memory
+opt
+stat
